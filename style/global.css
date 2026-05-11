@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+:root {
+    /*cinza médio / cinza neutro*/
+    --cinza-neutro:#acacac;
+    /*lavanda acinzentado / lilás frio*/
+    --lavanda-acinzentado:#acacdc;
+    /*ciano acinzentado / turquesa pálido*/
+    --ciano-acinzentado:#acdcdc;
+    /*cinza claro (bem próximo de Gainsboro)*/
+    --cinza-claro:#dcdcdc;
+    
+    /*bege oliva claro / areia suave*/
+    --areia-suave:#dcdcac;
+    /*rosa queimado claro / salmão apagado*/
+    --rosa-queimado-claro:#dcacac;
+    
+    --branco: #fff;
+    --preto:#000;
+}
+body {
+    background-color: var(--cinza-neutro);
+}
+section {
+     margin: 5px;
+    border-radius: 10px;
+    border: solid 0.75px var(--branco);
+    padding: 5px
+}
+section div {
+  display: flex;
+  gap: 5px
+}
+h2 {
+    margin-left: 10px;
+    color: var(--branco)
+}
+section img {
+    border-radius: 10px;
+    border: solid 0.75px var(--branco);
+    width: 95px;
+}
+ul {
+    list-style: none;
+}
+ol li {
+    margin-left:15px;
+    color: var(--branco)
+}
+li span {
+    color: var(--preto)
+}
+section ul, ol {
+    border: solid var(--branco) 0.75px;
+    border-radius:10px;
+    padding: 10px;
+    color: var(--branco);
+    flex:1;
+    background-color: var(--lavanda-acinzentado)
+}
