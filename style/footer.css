@@ -1,0 +1,9 @@
+footer section{
+    background-color: var(--ciano-acinzentado);
+}
+footer a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color:inherit
+}
+
